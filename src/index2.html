@@ -164,7 +164,8 @@ let selectedHour = 12;
 map.on('load', () => {
   map.addSource('parks', {
     type: 'geojson',
-    data: './data/combine.geojson' // ✅ 从 src 回到上一级
+    data: '../combine.geojson'
+ // ✅ 从 src 回到上一级
   });
 
   map.addLayer({

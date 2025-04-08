@@ -148,6 +148,7 @@
   </div>
 </div>
 
+<script src="combine.js"></script>
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoieXViaW4wMCIsImEiOiJjbTgydXF4MmwwZDVpMmxyNHB2eGkxOG45In0.118bRKW5lzqbICAwvl4qaA';
@@ -164,7 +165,7 @@ let selectedHour = 12;
 map.on('load', () => {
   map.addSource('parks', {
     type: 'geojson',
-    data: './data/combine.geojson' // ✅ 从 src 回到上一级
+    data: parksData // ✅ 从 src 回到上一级
   });
 
   map.addLayer({
