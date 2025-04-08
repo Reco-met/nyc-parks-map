@@ -1,4 +1,4 @@
-var config = {
+const config = {
     style: 'mapbox://styles/themax22/cm9266jca005v01qyhtzceotp',
     accessToken: 'pk.eyJ1IjoidGhlbWF4MjIiLCJhIjoiY205MmhyenluMGFydjJrcXpsb255OGlkZCJ9.AdtPZKvUm6FsCa14YDkJTA',
     showMarkers: false,
